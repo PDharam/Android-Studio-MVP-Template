@@ -2,6 +2,9 @@ package ${packageName}.view;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+<#if applicationPackage??>
+import ${applicationPackage}.R;
+</#if>
 
 import ${packageName}.presenter.${presenterClass};
 import ${packageName}.presenter.${presenterClass}Impl;

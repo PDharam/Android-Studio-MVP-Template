@@ -2,7 +2,6 @@ package ${packageName}.presenter;
 
 import ${packageName}.interactor.${interactorClass};
 import ${packageName}.interactor.${interactorClass}Impl;
-import ${packageName}.view.${activityClass};
 import ${packageName}.view.${viewClass};
 
 
